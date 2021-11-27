@@ -1,0 +1,16 @@
+.section {
+    margin-bottom: 80px;
+
+    & > * ~ * {
+        margin-top: 70px;
+    }
+
+    &__title {
+        font-size: 2rem;
+        text-transform: capitalize;
+        text-align: center;
+        color: $main-color;
+        font-weight: 800;
+        font-family: "M PLUS Rounded 1c", sans-serif;
+    }
+}
